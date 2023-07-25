@@ -56,7 +56,19 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1{
-    background: linear-gradient(130deg, #ff00aa, #3300ff);
+    background: linear-gradient(130deg, #eac5e4, #ffffff);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;;
+    font-size: 40px;
+}
+
+a{
+    background: linear-gradient(130deg, #ffffff, #ffffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;;
+    font-size: 20px;
 }
